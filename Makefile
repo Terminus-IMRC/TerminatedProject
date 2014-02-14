@@ -42,4 +42,6 @@ line:
 
 .PHONY: clean
 clean:
-	$(RM) $(PROG) $(OBJS) $(TOCLEAN)
+	$(RM) $(PROG) $(OBJS)
+	$(RM) $(XNUM)
+	$(RM) $(TOCLEAN)
